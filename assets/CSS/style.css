@@ -1,0 +1,245 @@
+/* Pággina index.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: #36C2CE;
+    padding: 15px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 0 10px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-link:hover {
+    color: #77E4C8;
+}
+
+.header {
+    background-color: #72d949;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.main {
+    padding: 40px 20px;
+}
+
+.subtitle {
+    font-size: 28px;
+    color: #4535C1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-block {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.feature-title {
+    font-size: 22px;
+    color: #478CCF;
+    margin: 20px 0 10px;
+    position: relative;
+    transition: background-position 0.5s ease;
+}
+
+.color-gradient-hover {
+    background: linear-gradient(90deg, #478CCF, #0ee92b, #f0ec23);
+    background-size: 200%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background-position 0.4s ease;
+}
+
+.color-gradient-hover:hover {
+    background-position: 100%;
+}
+
+.image-gallery {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.video {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.video-frame {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #4535C1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+/* Página contato.html */
+
+.contact-page .nav {
+    background-color: #36C2CE;
+    padding: 15px;
+}
+
+.contact-page .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-page .menu-item {
+    margin: 0 10px;
+}
+
+.contact-page .menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-page .menu-link:hover {
+    color: #77E4C8;
+}
+
+.contact-page .header {
+    background-color: #72d949;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-page .title {
+    font-size: 36px;
+}
+
+.contact-page .main {
+    padding: 40px 20px;
+}
+
+.contact-page .subtitle {
+    font-size: 28px;
+    color: #4535C1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-page .contact-form {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page .form-label {
+    display: block;
+    font-size: 18px;
+    color: #4535C1;
+    margin-bottom: 5px;
+}
+
+.contact-page .form-input, .contact-page .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-page .form-button {
+    background-color: #36C2CE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-page .form-button:hover {
+    background-color: #478CCF;
+}
+
+.contact-page .address {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-page .map-container {
+    text-align: center;
+}
+
+.contact-page .footer {
+    background-color: #4535C1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-page .footer-text {
+    font-size: 14px;
+}
